@@ -1,0 +1,21 @@
+{
+  "name": "comfyeyes-theme",
+  "displayName": "ComfyEyes Theme",
+  "description": "A dark comfy theme inspired by one dark and gruvbox",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ComfyEyes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ComfyEyes-color-theme.json"
+      }
+    ]
+  }
+}
